@@ -1,4 +1,4 @@
-#!/bin/bash
+login#!/bin/bash
 
 # build.sh
 # Copyright (C) 2024 Voloskov Aleksandr Nikolaevich
