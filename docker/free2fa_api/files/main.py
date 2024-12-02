@@ -366,7 +366,6 @@ async def process_auth_response(callback_query: types.CallbackQuery):
             if action == "reject":
                 logger.debug("Action=reject:")
             if action == "permit":
-                is_bypass=True
                 logger.debug("Action=permit:")
                 await delete_message(callback_query.from_user.id, callback_query.message.message_id)
             last_message_info[normalized_username] = (time.time() -
